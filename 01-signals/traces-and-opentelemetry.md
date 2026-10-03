@@ -63,6 +63,24 @@ flowchart LR
 
 Collector processors can batch, filter, sample, redact or enrich data. Keep instrumentation vendor-neutral where practical.
 
+### Observability pipeline reliability
+
+The telemetry pipeline is itself a production system. If it fails silently, dashboards can look healthy because evidence disappeared rather than because the application recovered.
+
+Monitor the pipeline for:
+
+- dropped spans, metrics and log records;
+- exporter/collector queue depth and retry rate;
+- collector CPU, memory and backpressure;
+- backend ingestion latency and rejection rate;
+- sampling-policy changes;
+- schema/attribute changes that cause cardinality growth;
+- time synchronization problems that distort event ordering.
+
+A useful meta-SLI is **telemetry completeness**: for example, expected request count from an independent source compared with ingested request telemetry. For critical systems, preserve at least one independent signal path so failure of the primary telemetry backend does not remove all visibility.
+
+Do not make the observability stack more operationally complex than the system it is supposed to explain. Redundancy, buffering and failover for telemetry should be proportional to incident-response needs.
+
 ### Baggage
 
 Baggage is context propagated across service boundaries. It can carry bounded business metadata, but misuse causes overhead and privacy risk. Never treat baggage as a trusted authorization channel.

@@ -1,1 +1,12 @@
-/dist/
+# This repository is documentation-first.
+.idea/
+.vscode/
+*.iml
+*.class
+*.jar
+build/
+out/
+target/
+node_modules/
+.DS_Store
+*.log

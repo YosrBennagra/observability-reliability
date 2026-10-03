@@ -78,6 +78,6 @@ Telemetry is only useful when it supports a decision. High-volume data with poor
 
 ## Repository boundaries
 
-Deep platform setup belongs in [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering). Testing mechanics belong in [testing-engineering](https://github.com/YosrBennagra/testing-engineering). Security telemetry belongs in [application-security](https://github.com/YosrBennagra/application-security). Java/JVM internals belong in [java-mastery](https://github.com/YosrBennagra/java-mastery). Spring implementation details belong in [spring-mastery](https://github.com/YosrBennagra/spring-mastery). Practical diagnostic commands are cross-linked with [engineering-toolbox](https://github.com/YosrBennagra/engineering-toolbox).
+Deep platform setup belongs in [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering-). Testing mechanics belong in [testing-engineering](https://github.com/YosrBennagra/testing-engineering). Security telemetry belongs in [application-security](https://github.com/YosrBennagra/application-security). Java/JVM internals belong in [java-mastery](https://github.com/YosrBennagra/java-mastery). Spring implementation details belong in [spring-mastery](https://github.com/YosrBennagra/spring-mastery). Practical diagnostic commands are cross-linked with [engineering-toolbox](https://github.com/YosrBennagra/engineering-toolbox).
 
 This repository owns the **operational mental model** tying those areas together.

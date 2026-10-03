@@ -104,4 +104,4 @@ Use resource metrics to explain symptoms, not as a substitute for user-centric S
 
 - [Golden signals, RED and USE](../02-observability/golden-signals-red-use.md)
 - [Capacity monitoring](../04-operations/health-capacity-kubernetes.md)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)

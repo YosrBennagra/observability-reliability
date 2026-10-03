@@ -104,4 +104,4 @@ When assessing a system:
 - [SLIs, SLOs and error budgets](../03-reliability/sli-slo-sla-error-budgets.md)
 - [Failure modes and resilience](../03-reliability/failure-modes-resilience.md)
 - [System design](https://github.com/YosrBennagra/system-design)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)

@@ -29,6 +29,32 @@ A useful dashboard typically follows symptom → cause:
 
 Avoid giant "wall of graphs" dashboards that require tribal knowledge.
 
+### Prometheus and Grafana mental model
+
+Keep the responsibilities distinct:
+
+- **Prometheus-style monitoring** collects and stores labeled time series, evaluates PromQL-like queries and can evaluate recording/alerting rules.
+- **Grafana-style visualization** queries one or more data sources and turns them into dashboards, variables, annotations, drill-down links and operational views.
+- **Alert routing** groups, deduplicates, silences and routes fired alerts to the correct responder. Rule evaluation and notification routing are separate concerns.
+
+A dashboard should not hide query semantics. Engineers should be able to inspect the underlying query, units, aggregation and time window.
+
+Useful practices:
+
+- version-control dashboard/rule definitions where the platform supports provisioning;
+- add deployment/configuration annotations;
+- use templating for bounded dimensions such as environment, service and region;
+- link panels to traces/logs rather than duplicating all detail on one dashboard;
+- use recording rules for expensive repeated aggregations, not to obscure source metrics.
+
+Example PromQL-style service error ratio:
+
+    sum(rate(http_requests_total{service="checkout",status_class="5xx"}[5m]))
+    /
+    sum(rate(http_requests_total{service="checkout"}[5m]))
+
+The exact products can change; the durable skill is understanding collection, query, visualization, rule evaluation and routing as separate layers.
+
 ### Alert classes
 
 A pragmatic model:

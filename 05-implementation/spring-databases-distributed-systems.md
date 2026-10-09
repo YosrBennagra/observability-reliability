@@ -192,4 +192,4 @@ Do not conclude "database problem" merely because DB spans are slow; application
 
 - [Spring mastery](https://github.com/YosrBennagra/spring-mastery)
 - [Java mastery](https://github.com/YosrBennagra/java-mastery)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)

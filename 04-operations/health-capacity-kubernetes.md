@@ -138,5 +138,5 @@ Use commands to validate hypotheses, not as a random checklist.
 ## Related
 
 - [Golden signals and USE](../02-observability/golden-signals-red-use.md)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
 - [Engineering toolbox](https://github.com/YosrBennagra/engineering-toolbox)

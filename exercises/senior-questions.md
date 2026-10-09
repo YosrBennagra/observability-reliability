@@ -132,7 +132,7 @@ Rewrite the analysis to include trigger, systemic contributors, detection gap, r
 
 - [software-engineer-roadmap](https://github.com/YosrBennagra/software-engineer-roadmap)
 - [engineering-toolbox](https://github.com/YosrBennagra/engineering-toolbox)
-- [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
+- [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering)
 - [testing-engineering](https://github.com/YosrBennagra/testing-engineering)
 - [application-security](https://github.com/YosrBennagra/application-security)
 - [java-mastery](https://github.com/YosrBennagra/java-mastery)

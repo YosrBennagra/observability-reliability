@@ -1,5 +1,7 @@
 # Observability & Reliability Engineering — 0 → Expert
 
+> **Cheat sheet:** [CHEAT-SHEET.md](CHEAT-SHEET.md) (dense one-to-two-page revision sheet to print and keep on the wall)
+
 A practical knowledge repository for understanding, operating and improving production systems. It is part of the wider software-engineering knowledge system indexed by [software-engineer-roadmap](https://github.com/YosrBennagra/software-engineer-roadmap).
 
 The goal is not to memorize monitoring products. The goal is to build the mental models required to answer:
